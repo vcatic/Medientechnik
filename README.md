@@ -35,3 +35,15 @@ Hier habe ich eine responsive Webseite mittels Flexboxen erstellt
 ### exercise_responsive header with menu_
 Hier war die Aufageb eine responisve Header mit einem Menü zu erstellen 
 
+### exercise_table
+Hier habe ich Tabellen benutzt um eine Speisekarte gestaltet
+### exercise_video_STOMP
+Hier habe ich eine Webseite erstellt in der ich Videos einbauen musste
+
+### exercise1_video fonts layout_ANGABE
+Hier war die Aufgabe eine vorgegebene Webseite umzusetzen 
+
+### Surprise_Bildmaterial
+Hier 
+
+### Tabellen
