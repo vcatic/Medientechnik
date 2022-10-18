@@ -18,3 +18,11 @@ das Design von Medienprodukten im Vordergrund
 10. Tabellen
 
 
+## kurze Beschreibung
+
+### CSS Animations_Uebung_fullbackgroundimage_diashow
+Hier habe ich mit einer CSS-Animation einen Diashowhintergrund erstellt
+
+### einfache_Animation_mittels _CSSTransitions
+Hier habe ich mit einer Transition eine einfache Animation gemacht
+
