@@ -44,6 +44,7 @@ Hier habe ich eine Webseite erstellt in der ich Videos einbauen musste
 Hier war die Aufgabe eine vorgegebene Webseite umzusetzen 
 
 ### Surprise_Bildmaterial
-Hier 
+Hier habe ich einen Hovereffekt erstellt der beim drüberhovern vom Bild das Bild ändert
 
 ### Tabellen
+Hier habe ich verschiedene Tabellen erstellt und diese verschieden gestaltet
