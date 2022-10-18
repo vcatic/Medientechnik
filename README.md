@@ -26,3 +26,12 @@ Hier habe ich mit einer CSS-Animation einen Diashowhintergrund erstellt
 ### einfache_Animation_mittels _CSSTransitions
 Hier habe ich mit einer Transition eine einfache Animation gemacht
 
+### exercise_animated menus_fS
+Hier habe ich zwei animierte Menüs erstellt
+
+### exercise_responsive flexbox website_Ausgangsdateien
+Hier habe ich eine responsive Webseite mittels Flexboxen erstellt
+
+### exercise_responsive header with menu_
+Hier war die Aufageb eine responisve Header mit einem Menü zu erstellen 
+
