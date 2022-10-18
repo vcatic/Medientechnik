@@ -1,0 +1,83 @@
+
+
+
+
+#solution1 {
+    padding-bottom: 20px;
+    font-size: 0;
+}
+
+#inhalt1, #inhalt2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 150px;
+    border: 1px;
+}
+
+#inhalt1 {
+    background-image: url("../Surprise_Bildmaterial/vw_logo.png");
+    background-size: cover;
+}
+
+#inhalt2 {
+    background-image: url("../Surprise_Bildmaterial/bmw_logo.png");
+    background-size: cover;
+}
+
+#inhalt1:hover {
+    background-image: url("../Surprise_Bildmaterial/vw_auto.png");
+}
+
+#inhalt2:hover {
+    background-image: url("../Surprise_Bildmaterial/bmw_auto.png");
+}
+
+/**********************************************************/
+#solution2 {
+    font-size: 0;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.6);
+    cursor: pointer;
+}
+
+#vorhang1 {
+    position: relative;
+    left: 50px;
+    z-index: 2;
+}
+
+#vorhang2 {
+    position: relative;
+    left: 100px;
+    z-index: 2;
+}
+
+#vorhang1:hover, #vorhang2:hover {
+    z-index: -1;
+}
+
+#inhalt3 {
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+}
+
+#inhalt4 {
+    position: absolute;
+    left: 400px;
+    z-index: 1;
+}
+
+#inhalt3:hover, #inhalt4:hover {
+    z-index: 3;
+}

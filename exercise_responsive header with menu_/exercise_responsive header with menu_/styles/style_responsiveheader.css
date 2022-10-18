@@ -1,0 +1,47 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden; 
+  /*The overflow property specifies whether to clip the content or to add scrollbars when the content 
+  of an element is too big to fit in the specified area.
+  hidden - The overflow is clipped, and the rest of the content will be invisible*/
+  background-color: #f1f1f1;
+  padding: 1rem 2rem;
+  
+  width: 100%;
+}
+
+.header img {
+  width: 10%;
+}
+
+.header-right{
+  display: flex;
+  float: right;
+  margin-right: 1%;
+ 
+  
+}
+
+.header-right a {
+  padding: 4%;
+
+  text-decoration: none;
+  color: black;
+}
+.header-right a:hover {
+  background-color:rgb(22, 170,39);
+  border-radius: 8px;
+  color: white;
+  
+}
+
+@media screen and (max-width:500px) {
+  
+
+}

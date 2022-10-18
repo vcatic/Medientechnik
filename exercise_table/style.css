@@ -1,0 +1,44 @@
+body{
+    background:url(../exercise_table/hintergrundbild.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.table{
+    background-color:white;
+    padding: 5%;
+    width: 50%;
+    margin: 5% auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+/******Tabelle*********/
+
+table{
+    border-collapse: collapse;
+    border: 5px solid black;
+    width: 100%;
+}
+
+th, td{
+    padding:1%;
+    border: 2px dotted black;
+}
+thead{
+    background-color:rgb(133, 9, 9);
+    color:white;
+    text-align:left;
+}
+tfoot{
+    font-size: 80%;
+    text-align:center;
+}
+
+tbody tr:hover {
+    background-color:grey;
+}
+
+ 

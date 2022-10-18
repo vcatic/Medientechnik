@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+    line-height: 120%;
+}
+
+p{font-size: 80%;
+}
+
+/* Header/logo Title */
+.header{
+	background:url(../images/pattern.jpg);
+	background-size: 40%;
+	height: 200px;
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+
+.textbox{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+/*Die schwarze Titelbox inkl. Text sollte mittels Flexbox in der header-Box zentriert werden. Formatiere die textbox.*/
+
+.textbox{
+	
+	} 
+	
+		
+	
+/* Style the top navigation bar > VERWENDE FLEXBOX */
+.navbar {
+    background-color: red;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: black;
+    padding: 14px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Column container */
+.row {  
+    display: flex;
+   
+}
+
+/* Create two unequal columns that sits next to each other. > VERWENDE FLEXBOX * */
+
+.side {    
+    background-color: #E6E6E6;
+    padding: 2%;
+}
+
+.side .images{
+    display: flex;
+    flex-wrap: wrap;
+	background-color:white;
+	padding: 10px;
+    align-items: flex-start;
+}
+
+.side .images img{
+    max-width: 50%;
+}
+
+.firstRow{
+    display: flex;
+}
+
+
+/* Main column */
+.main {
+
+    background-color: white;
+    padding: 20px;
+
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
